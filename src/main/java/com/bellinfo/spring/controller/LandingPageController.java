@@ -18,6 +18,8 @@ public class LandingPageController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String landingpage(Model model) {
+		LoginCredentials lc1 = new LoginCredentials();
+		model.addAttribute("lc1", lc1);
 		return "login1";
 
 	}
