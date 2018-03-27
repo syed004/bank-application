@@ -21,8 +21,7 @@
 			    </td>
 			</tr>
 			<tr>
-				<td  width="600"
-					">
+				<td  width="600">
 					<%--  <tiles:insertAttribute name="title" /><br>--%> <tiles:insertAttribute
 						name="body" />
 				</td>
